@@ -3349,7 +3349,7 @@ body:not(.is-touch) .tiles article:hover > .image-logo:after {
 /*zac*/
 
 
-	a[href="#menu"] {visibility: hidden;}
+a[href="#menu"] {visibility: hidden;}
 
 
 @media screen and (max-width: 736px) {
@@ -3369,6 +3369,7 @@ body:not(.is-touch) .tiles article:hover > .image-logo:after {
 
 
 .topnav {
+  height: 95px;
   overflow: hidden;
   background-color: #white; 
 }
