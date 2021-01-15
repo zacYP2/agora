@@ -3349,7 +3349,7 @@ body:not(.is-touch) .tiles article:hover > .image-logo:after {
 /*zac*/
 
 
-a[href="#menu"] {visibility: hidden;}
+a[href="#menu"] {visibility: hidden; left:100px;}
 
 
 @media screen and (max-width: 736px) {
@@ -3362,7 +3362,7 @@ a[href="#menu"] {visibility: hidden;}
 
 		#desktop-only {visibility: hidden;}
 
-		a[href="#menu"] {visibility: visible;}
+		a[href="#menu"] {visibility: visible; left:0px}
 
 		}
 
