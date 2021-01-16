@@ -2,12 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
 
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3328,22 +3322,21 @@ input, select, textarea {
 	}
 
 /* home logo */
-
-body:not(.is-touch) .tiles article:hover > .image-logo {
+	body:not(.is-touch) .tiles article:hover > .image-logo {
 	-moz-transform: scale(1.25);
 	-webkit-transform: scale(1.25);
 	-ms-transform: scale(1.25);
 	transform: scale(1.25);
-}
+	}
 
-body:not(.is-touch) .tiles article:hover > .image-logo:before {
+	body:not(.is-touch) .tiles article:hover > .image-logo:before {
 	background-color: #FFFFFF;
 	opacity: 0.05;
-}
+	}
 
-body:not(.is-touch) .tiles article:hover > .image-logo:after {
+	body:not(.is-touch) .tiles article:hover > .image-logo:after {
 	opacity: 0;
-}
+	}
 
 
 /*zac*/
@@ -3371,7 +3364,7 @@ a[href="#menu"] {visibility: hidden; left:100px;}
 .topnav {
   height: 95px;
   overflow: hidden;
-  background-color: #white; 
+  background-color: #white;
 }
 
 .topnav a {
@@ -3455,3 +3448,34 @@ a[href="#menu"] {visibility: hidden; left:100px;}
 
 }
 
+.index-bienvenue {
+  text-align:center;
+  color:#B6B6B6;
+  font-weight:500;
+}
+@media (min-width:576px) {
+  .index-bienvenue {
+    font-size: 32px;
+  }
+}
+@media (min-width:768px) {
+  .index-bienvenue {
+    font-size: 36px;
+  }
+}
+@media (min-width:992px) {
+  .index-bienvenue {
+    font-size: 48px;
+  }
+}
+
+.barre-de-recherche {
+  border: none;
+  float: left;
+  color: #black;
+  text-align: center;
+  padding: 16px 20px 40px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Tahoma, Tahoma, sans-serif;
+}
