@@ -2580,6 +2580,7 @@ input, select, textarea {
 			position: relative;
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
+			height: 30vh;
 		}
 
 			.tiles article > .image {
@@ -2592,6 +2593,7 @@ input, select, textarea {
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
+				height: 30vh;
 			}
 
 				.tiles article > .image img {
