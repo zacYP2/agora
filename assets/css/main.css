@@ -2580,7 +2580,7 @@ input, select, textarea {
 			position: relative;
 			width: calc(33.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
-			height: 30vh;
+		/*	height: 30vh;*/
 		}
 
 			.tiles article > .image {
@@ -2593,7 +2593,7 @@ input, select, textarea {
 				width: 100%;
 				border-radius: 4px;
 				overflow: hidden;
-				height: 30vh;
+				/*height: 30vh;*/
 			}
 
 				.tiles article > .image img {
@@ -2705,27 +2705,33 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #D9D9D9;
+				opacity:0.42;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #F7BEB3;
+				opacity:0.42;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #7FD3EB;
+				opacity:0.42;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #DDBBCF;
+				opacity:0.42;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #F1EF59;
+				opacity:0.42;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #475694;
+				opacity:0.42;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -3353,7 +3359,7 @@ a[href="#menu"] {visibility: hidden; left:100px;}
 				padding: 0 1.25em;
 			}
 
-					#descriptions {visibility: hidden;}
+					#descriptions {display:none;}
 
 		#desktop-only {visibility: hidden;}
 
@@ -3481,3 +3487,15 @@ a[href="#menu"] {visibility: hidden; left:100px;}
   font-size: 17px;
   font-family: Tahoma, Tahoma, sans-serif;
 }
+
+header {margin-bottom: 0;}
+
+@media (min-width:768px) {
+	header {margin-bottom: -60px;}
+
+}
+
+
+	.services-tiles { }
+
+	.services-tiles article > .image {height: 18vw;}

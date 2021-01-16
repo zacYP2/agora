@@ -15,9 +15,7 @@
  		<div class="topnav" id="desktop-only">
 			<a href="index.html" style="padding:14px; padding-left:40px"><img src="images/agora-bleu.png" height=62px /></a>
 
-		  <a class="first" href="accueil.html">Accueil</a>
-
-		  <div class="dropdown">
+		  <div class="dropdown first">
 		  	<a href="services.html" class="active dropbtn">Services <img src="images/arrow.svg" height=15px style="padding-top:4px;"/></a>
 		  	<div class="dropdown-content">
 		  		<a href="#">Sérigraphie</a>
@@ -34,6 +32,8 @@
 		  	<a href="produits.html">Produits</a>
 
 		  	<a href="#">Portfolio</a>
+
+		  	<a href="apropos.html">À propos</a>
 
 			<a href="contact.html">Contact</a>
 
@@ -74,12 +74,16 @@
 							<h2>Menu</h2>
 							<ul>
 
-								<li><a href="accueil.html">Accueil</a></li>
+								
+
+
+
+
 								<li><a href="services.html">Services</a></li>
 								<li><a href="produits.html">Produits</a></li>
 								<li><a href="#">Portfolio</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
+								<li><a href="apropos.html">À propos</a></li>
+								<li><a href="contact.html">Contact</a></li>							</ul>
 						</nav>
 
 				<!-- Main -->
@@ -88,14 +92,14 @@
 <!-- 							<header>
 								<h1 style="margin-left:10%">Services Offerts</h1>
 							</header> -->
-							<section class="tiles" style="margin-left:5%;margin-right:5%;">
+							<section class="tiles services-tiles" style="margin-left:5%;margin-right:5%;">
 								<article class="style1">
 									<span class="image">
 										<img src="images/serigraphie.png" alt="Sérigraphie" style="filter: brightness(50%);" />
 									</span>
 									<a href="generic.html">
 										<h2>Sérigraphie</h2>
-										<div class="content">
+										<div class="content" id="descriptions">
 											<p>Cette technique permet de passer de la peinture à travers d’un écran de soie.
 												 La sérigraphie permet d'imprimer des images de plusieurs couleurs sur des
 												 vêtements de différents types de tissus.</p>
@@ -111,11 +115,11 @@
 									</span>
 									<a href="generic.html">
 										<h2>Broderie</h2>
-										<div class="content">
+										<div class="content" id="descriptions">
 											<p>Cette technique est un moyen de concevoir des motifs à l’aide de fil à broder.
 												Offrent une incroyable tenue aux lavages et une durée de vie très longue,
 												la broderie vous démarquera de la competition.</p>
-											<li id="descriptions">Le coût d'une broderie se calcule selon le nombre de points, donc le coût
+											<li>Le coût d'une broderie se calcule selon le nombre de points, donc le coût
 												varie en fonction de sa densité et de sa dimension. </li>
 										</div>
 									</a>
@@ -126,7 +130,7 @@
 									</span>
 									<a href="generic.html">
 										<h2>Transfert Vinyle</h2>
-										<div class="content">
+										<div class="content" id="descriptions">
 											<p>Le transfert vinyle s’applique sur le vêtement à l’aide d’une presse
 												à transfert thermique. Il est souvent utilisé pour des impressions
 												unitaires ou pour faire la numérotation ou l’identification individuelle,
@@ -141,7 +145,7 @@
 									</span>
 									<a href="generic.html">
 										<h2>Sublimation</h2>
-										<div class="content">
+										<div class="content" id="descriptions">
 											<p>La sublimation est un type d’impression très intéressant pour le long terme.
 												Cette technique transfère l’encre sur le tissu synthétique à très hautes
 												températures. Après avoir été chauffé, l’encre se transforme en gaz qui par
@@ -156,7 +160,7 @@
 									</span>
 									<a href="generic.html">
 										<h2>Articles promotionnels</h2>
-										<div class="content">
+										<div class="content" id="descriptions">
 											<p>Les articles promotionnels permettent de donner de la visibilité à votre
 												entreprise à travers objets qui seront utilisé dans la vie de tous les jours.</p>
 											<li id="descriptions">Contactez-nous pour connaître toutes nos offres de produit.</li>
@@ -169,19 +173,19 @@
 									</span>
 									<a href="generic.html">
 										<h2>Impression numérique & Grand format</h2>
-										<div class="content">
+										<div class="content" id="descriptions">
 											<p>L’impression numérique et grand format est utilisé pour promouvoir votre entreprise
 											avec l’utilisation de cartes d'affaire, d’autocollants, d’affiches, de dépliants, flyers, bannières. </p>
 										</div>
 									</a>
 								</article>
-								<article class="style2">
+								<article class="style1">
 									<span class="image">
 										<img src="images/tampo.png" alt="Tampographie" style="filter: brightness(50%);" />
 									</span>
 									<a href="generic.html">
 										<h2>Tampographie</h2>
-										<div class="content">
+										<div class="content" id="descriptions">
 											<p>La tampographie est surtout utilisée sur des produits ou des emplacements difficiles
 												 à imprimer par les autres procédés d’impression. Cette technique permet d’imprimer
 												 sur du plastique, du métal et du verre. Ce processus est produit par un tampon en
@@ -196,7 +200,7 @@
 									</span>
 									<a href="generic.html">
 										<h2>Design & infographie</h2>
-										<div class="content">
+										<div class="content" id="descriptions">
 											<p>La création du design et la modification de certains logos peuvent être très compliqué
 												 pour certaines personnes. C’est pour cette raison que nous offrons un service de
 												 modifications d’images pour vous aider à gagner du temps. </p>
