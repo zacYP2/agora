@@ -3490,12 +3490,16 @@ a[href="#menu"] {visibility: hidden; left:100px;}
 
 header {margin-bottom: 0;}
 
+
+.services-tiles article > .image {height: 36vw;}
+
+
 @media (min-width:768px) {
 	header {margin-bottom: -60px;}
+
+	.services-tiles article > .image {height: 18vw;}
 
 }
 
 
 	.services-tiles { }
-
-	.services-tiles article > .image {height: 18vw;}
