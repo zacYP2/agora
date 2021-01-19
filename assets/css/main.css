@@ -3351,6 +3351,9 @@ input, select, textarea {
 
 
 a[href="#menu"] {visibility: hidden; left:100px;}
+a[href="soumission.html"] {color:#346DED;}
+
+#index-mobile {display:none;}
 
 
 @media screen and (max-width: 736px) {
@@ -3364,6 +3367,8 @@ a[href="#menu"] {visibility: hidden; left:100px;}
 		#desktop-only {visibility: hidden;}
 
 		a[href="#menu"] {visibility: visible; left:0px}
+
+		#index-mobile {display: block;}
 
 		}
 
@@ -3503,3 +3508,5 @@ header {margin-bottom: 0;}
 
 
 	.services-tiles { }
+
+

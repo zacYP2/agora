@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		</head>
+
 		<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -37,13 +38,15 @@
 		  	</div>
 		  </div>
 
-		  	<a class="active" href="produits.html">Produits</a>
+		  	<a href="produits.html">Produits</a>
 
 		  	<a href="#">Portfolio</a>
 
 		  	<a href="apropos.html">À propos</a>
 
 			<a href="contact.html">Contact</a>
+
+			<a class="active" href="soumission.html">Soumission</a>
 
 			
 <!-- 		  <div class="barre-de-recherche"><input width="100px" type="text" name="demo-name" id="demo-name" value="" placeholder="Rechercher" />
@@ -63,8 +66,6 @@
 		</header>
 					
 
-
-					<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -101,21 +102,29 @@
 								<li><a href="contact.html">Contact</a></li>							</ul>
 						</nav>
 </div>
-</body>
+
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
 							<header>
-								<h1>Produits</h1>
-								<h4>Hoodies, T-shirts, Masques,</h4>
-								<h4>Sacs, Tuques, Casquettes</h4>
-							</br>
-						  </br>
-						  <p>Pour voir tout nos options vous pouvez aller voir notre catalogue ou nous contacter directement. </p>
+
+
+<h1>Soumission</h1>
+
+								<div id="filesubmit">
+  <input type="file" class="file-select" accept="image/*"/>
+  <button class="file-submit">SUBMIT</button>
+</div>
+
 							</header>
 						</div>
 					</div>
+
+								
+
+
+					
 
 				<!-- Footer -->
 					<footer id="footer">
@@ -163,5 +172,53 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyAXbiw774STxxrnDRBJ0JYIfWxuK_-U3oY",
+    authDomain: "agora-aaec2.firebaseapp.com",
+    projectId: "agora-aaec2",
+    storageBucket: "agora-aaec2.appspot.com",
+    messagingSenderId: "661105753786",
+    appId: "1:661105753786:web:3ad0b1269286f9cc304c83",
+    measurementId: "G-MQ8SWJ308F"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  
+  const storageService = firebase.storage();
+  const storageRef = storageService.ref();
+
+  document.querySelector('.file-select).addEventListener('change', handleFileUploadChange);
+  document.querySelector('.file-submit).addEventListener('click', handleFileUploadSubmit);
+  	let selectedFile;
+handleFileUploadChange(e) {
+  selectedFile = e.target.files[0];
+
+  handleFileUploadSubmit(e) {
+  const uploadTask = storageRef.child(`images/${selectedFile.name}`).put(selectedFile); //create a child directory called images, and place the file inside this directory
+  uploadTask.on('state_changed', (snapshot) => {
+  // Observe state change events such as progress, pause, and resume
+  }, (error) => {
+    // Handle unsuccessful uploads
+    console.log(error);
+  }, () => {
+     // Do something once upload is complete
+     console.log('success');
+  });
+}
+}
+</script>
 	</body>
 </html>
