@@ -2096,6 +2096,10 @@ input, select, textarea {
 					width: calc(25% - 0.375em);
 				}
 
+				form > .fields > .field > .demi-field {
+					width: calc(100%/3 - 0.375em);
+				}
+
 		@media screen and (max-width: 480px) {
 
 			form > .fields {
@@ -2118,6 +2122,10 @@ input, select, textarea {
 
 					form > .fields > .field.quarter {
 						width: calc(100% - 1.5em);
+					}
+
+					form > .fields > .field > .demi-field {
+						width: calc(100%);
 					}
 
 		}
