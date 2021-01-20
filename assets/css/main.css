@@ -3511,14 +3511,9 @@ header {margin-bottom: 0;}
 	.services-tiles article > .image {height: 18vw;}
 }
 
-@media (min-width: 600px) {
-	#bouton-contact {
-		float: right;margin-top: -470px;
-	}
-}
-
 
 .services-tiles { }
 
-
-#bouton-contact {border: none;}
+a {
+	border:none;
+}
