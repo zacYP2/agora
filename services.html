@@ -1,264 +1,298 @@
-<!DOCTYPE HTML>
+	<!DOCTYPE HTML>
 
-<html>
-<head>
-	<title>Agora - Services</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="icon" href="images/A.png">
-	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-</head>
-<header>
-	<!-- topnav -->
+	<html>
+	<head>
+		<title>Agora - Services</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/A.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<header>
+		<!-- topnav -->
 
-	<div class="topnav" id="desktop-only">
-		<a href="index.html" style="padding:14px; padding-left:40px"><img src="images/agora-bleu.png" height=62px /></a>
+		<div class="topnav" id="desktop-only">
+			<a href="index.html" style="padding:14px; padding-left:40px"><img src="images/agora-bleu.png" height=62px /></a>
 
-		<div class="dropdown first">
-			<a href="services.html" class="active dropbtn">Services <img src="images/arrow.svg" height=15px style="padding-top:4px;"/></a>
-			<div class="dropdown-content">
-				<a href="services/serigraphie.html">Sérigraphie</a>
-				<a href="services/broderie.html">Broderie</a>
-				<a href="services/transfert.html">Transfert Vinyle</a>
-				<a href="services/sublimation.html">Sublimation</a>
-				<a href="services/articles.html">Articles Promotionnels</a>
-				<a href="services/impression.html">Impression Numérique</a>
-				<a href="services/tampographie.html">Tampographie</a>
-				<a href="services/design.html">Design & Infographie</a>
+			<div class="dropdown first">
+				<a href="services.html" class="active dropbtn">Services <img src="images/arrow.svg" height=15px style="padding-top:4px;"/></a>
+				<div class="dropdown-content">
+					<a href="#serigraphie">Sérigraphie</a>
+					<a href="#broderie">Broderie</a>
+					<a href="#transfert">Transfert Vinyle</a>
+					<a href="#sublimation">Sublimation</a>
+					<a href="#articles">Articles Promotionnels</a>
+					<a href="#impression">Impression Numérique</a>
+					<a href="#tampographie">Tampographie</a>
+					<a href="#design">Design & Infographie</a>
+				</div>
 			</div>
+
+			<a href="produits.html">Produits</a>
+
+			<a href="portfolio.html">Portfolio</a>
+
+			<a href="apropos.html">À propos</a>
+
+			<a href="contact.html">Contact</a>
+
+			<a href="soumission.html">Soumission</a>
+
+			<a href="#" style="float: right;margin-right:5%;">Rechercher<img src="images/loupe.svg" color="black" width="18px" style="margin-left:8px;"/></a>
+
 		</div>
 
-		<a href="produits.html">Produits</a>
+		<div class="bouton-mobil">
+			<a href="index.html" style="padding:14px; padding-left:32px;position: absolute;border: none; left: 0px; top: 0px;"><img src="images/agora-bleu.png" height=80px /></a>
+		</div>
 
-		<a href="portfolio.html">Portfolio</a>
-
-		<a href="apropos.html">À propos</a>
-
-		<a href="contact.html">Contact</a>
-
-		<a href="soumission.html">Soumission</a>
-
-		<a href="#" style="float: right;margin-right:5%;">Rechercher<img src="images/loupe.svg" color="black" width="18px" style="margin-left:8px;"/></a>
-
-	</div>
-
-	<div class="bouton-mobil">
-		<a href="index.html" style="padding:14px; padding-left:32px;position: absolute;border: none; left: 0px; top: 0px;"><img src="images/agora-bleu.png" height=80px /></a>
-	</div>
-
-</header>
+	</header>
 
 
 
-<body class="is-preload">
-	<!-- Wrapper -->
-	<div id="wrapper">
+	<body class="is-preload">
+		<!-- Wrapper -->
+		<div id="wrapper">
 
-		<!-- Header -->
-		<header id="header">
-			<div class="inner">
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
 
 
 
-				<!-- Nav -->
-				<nav>
-					<ul>
-						<li><a href="#menu">Menu</a></li>
-					</ul>
+					<!-- Nav -->
+					<nav>
+						<ul>
+							<li><a href="#menu">Menu</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</header>
+
+			<!-- Menu -->
+			<nav id="menu" >
+				<h2>Menu</h2>
+				<ul>
+
+
+
+
+
+
+					<li><a href="services.html">Services</a></li>
+					<li><a href="produits.html">Produits</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="apropos.html">À propos</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="soumission.html">Soumission</a></li>							</ul>
 				</nav>
 
-			</div>
-		</header>
+				<!-- Main -->
+				<div id="main">
+					<section class="tiles services-tiles" style="margin-left:5%;margin-right:5%;">
+						<article class="style1">
+							<span class="image">
+								<img src="images/serigraphie.jpg" alt="Sérigraphie" style="filter: brightness(50%);" />
+							</span>
+							<a id="serigraphieAnchor" href="#serigraphie">
+								<h2>Sérigraphie</h2>
+							</a>
+						</article>
+						<article class="style2">
+							<span class="image">
+								<img src="images/broderie.jpg" alt="Broderie" style="filter: brightness(50%);" />
+							</span>
+							<a id="broderieAnchor" href="#broderie">
+								<h2>Broderie</h2>
+							</a>
+						</article>
+						<article class="style3">
+							<span class="image">
+								<img src="images/transfer.jpg" alt="Transfert Vinyle" style="filter: brightness(50%);" />
+							</span>
+							<a href="#transfert">
+								<h2>Transfert Vinyle</h2>
+							</a>
+						</article>
+						<article class="style4">
+							<span class="image">
+								<img src="images/transfer2.jpg" alt="Sublimation" style="filter: brightness(50%);" />
+							</span>
+							<a href="#sublimation">
+								<h2>Sublimation</h2>
+							</a>
+						</article>
+						<article class="style5">
+							<span class="image">
+								<img src="images/stickers.jpg" alt="Articles promotionnels" style="filter: brightness(50%);" />
+							</span>
+							<a href="#articles">
+								<h2>Articles promotionnels</h2>
+							</a>
+						</article>
+						<article class="style6">
+							<span class="image">
+								<img src="images/posters.jpg" alt="Impression numérique & Grand format" style="filter: brightness(50%);" />
+							</span>
+							<a href="#impression">
+								<h2>Impression numérique & Grand format</h2>
+							</a>
+						</article>
+						<article class="style1">
+							<span class="image">
+								<img src="images/tampo.jpg" alt="Tampographie" style="filter: brightness(50%);" />
+							</span>
+							<a href="#tampographie">
+								<h2>Tampographie</h2>
+							</a>
+						</article>
+						<article class="style3">
+							<span class="image">
+								<img src="images/design.jpg" alt="Design et infographie" style="filter: brightness(50%);" />
+							</span>
+							<a href="#design">
+								<h2>Design & infographie</h2>
+							</a>
+						</article>
+					</section>
+					<div class="row gtr-unifrom" style="padding-top:160px;" id="services-description" style="display:block;">
 
-		<!-- Menu -->
-		<nav id="menu" >
-			<h2>Menu</h2>
-			<ul>
+						<div class="col-4 off-1 col-10-small off-1-small row">
+
+							<div style="height:100px" id="serigraphie"></div>
+							<span class="image main""><img src="images/serigraphie2-petit.jpg" alt="" /></span>
+							<h1>Sérigraphie</h1>
+							<p>Cette technique permet de passer de la peinture à travers d’un écran de soie. La sérigraphie permet d'imprimer des images de plusieurs couleurs sur des vêtements de différents types de tissus.</p>
+							<li>Maximum 6 couleurs.</li>
+							<li>Différents types de tissus.</li>
 
 
+							<div style="height:100px" id="broderie"></div>
+							<span class="image main"><img src="images/broderie2-petit.jpg" alt="" /></span>
+							<h1>Broderie</h1>
+							<p>La broderie est faite à partir de fils et permet d’avoir un nombre de couleurs illimité. La broderie permet d’avoir un logo dense et en relief, c’est une des meilleures options niveaux durabilité comparé aux autres techniques d’impression sur textile. </p>
+							<p>Comment ça fonctionne et le prix? Tout d’abord nous devons créer une matrice de votre logo puis préparé les différents fils de couleurs du logo. (Nous gardons la matrice en filière donc vous ne la payez qu’une seule fois). Par la suite, le prix unitaire peut varier selon la grandeur du logo et la quantité d’unité à broder. Nous offrons également le service de broderie-texte qui permet de rajouter des noms sans avoir à créer de matrice. Nous pouvons aussi créer des patchs personnalisés.</p>
 
 
+							<div style="height:100px" id="transfert"></div>
+							<span class="image main"><img src="images/transfer3-petit.jpg" alt="" /></span>
+							<h1>Transfert Vynile</h1>
+							<p>Le transfert vinyle s’applique sur le vêtement à l’aide d’une presse à transfert thermique. Il est souvent utilisé pour des impressions unitaires ou pour faire la numérotation ou l’identification individuelle, parfait pour les vêtements de sport. <span id="descriptions">Cette technique permet de faire des positionnements plus spécifiques et d’imprimer sur des matériaux différents.</span> </p>
 
 
-				<li><a href="services.html">Services</a></li>
-				<li><a href="produits.html">Produits</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="apropos.html">À propos</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="soumission.html">Soumission</a></li>							</ul>
-			</nav>
+							<div style="height:100px" id="sublimation"></div>
+							<span class="image main"><img src="images/sublimation2-petit.jpg" alt="" /></span>
+							<h1>Sublimation</h1>
+							<p>La sublimation est un type d’impression très intéressant pour le long terme.
+								Cette technique transfère l’encre sur le tissu synthétique à très hautes
+								températures. Après avoir été chauffé, l’encre se transforme en gaz qui par
+								la suite reste dans les fibres du tissu. Ce processus permet une durabilité
+							incomparable et peut-être nettoyée sans aucun problème du délavage.</p>
 
-			<!-- Main -->
-			<div id="main">
-				<div>
-<!-- 							<header>
-								<h1 style="margin-left:10%">Services Offerts</h1>
-							</header> -->
-							<section class="tiles services-tiles" style="margin-left:5%;margin-right:5%;">
-								<article class="style1">
-									<span class="image">
-										<img src="images/serigraphie.jpg" alt="Sérigraphie" style="filter: brightness(50%);" />
-									</span>
-									<a href="services/serigraphie.html">
-										<h2>Sérigraphie</h2>
-										<div class="content" id="descriptions">
-											<p>Cette technique permet de passer de la peinture à travers d’un écran de soie.
-												La sérigraphie permet d'imprimer des images de plusieurs couleurs sur des
-											vêtements de différents types de tissus.</p>
-											<li >Maximum 6 couleurs.</li>
-											<li id="descriptions">Différents types de tissus.</li>
-
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/broderie.jpg" alt="Broderie" style="filter: brightness(50%);" />
-									</span>
-									<a href="services/broderie.html">
-										<h2>Broderie</h2>
-										<div class="content" id="descriptions">
-											<p>Cette technique est un moyen de concevoir des motifs à l’aide de fil à broder.
-												Offrent une incroyable tenue aux lavages et une durée de vie très longue,
-											la broderie vous démarquera de la competition.</p>
-											<li>Le coût d'une broderie se calcule selon le nombre de points, donc le coût
-											varie en fonction de sa densité et de sa dimension. </li>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/transfer.jpg" alt="Transfert Vinyle" style="filter: brightness(50%);" />
-									</span>
-									<a href="services/transfert.html">
-										<h2>Transfert Vinyle</h2>
-										<div class="content" id="descriptions">
-											<p>Le transfert vinyle s’applique sur le vêtement à l’aide d’une presse
-												à transfert thermique. Il est souvent utilisé pour des impressions
-												unitaires ou pour faire la numérotation ou l’identification individuelle,
-												parfait pour les vêtements de sport. <span id="descriptions">Cette technique permet de faire des
-												positionnements plus spécifiques et d’imprimer sur des matériaux différents.</span> </p>
-											</div>
-										</a>
-									</article>
-									<article class="style4">
-										<span class="image">
-											<img src="images/transfer2.jpg" alt="Sublimation" style="filter: brightness(50%);" />
-										</span>
-										<a href="services/sublimation.html">
-											<h2>Sublimation</h2>
-											<div class="content" id="descriptions">
-												<p>La sublimation est un type d’impression très intéressant pour le long terme.
-													Cette technique transfère l’encre sur le tissu synthétique à très hautes
-													températures. Après avoir été chauffé, l’encre se transforme en gaz qui par
-													la suite reste dans les fibres du tissu. Ce processus permet une durabilité
-												incomparable et peut-être nettoyée sans aucun problème du délavage.</p>
-											</div>
-										</a>
-									</article>
-									<article class="style5">
-										<span class="image">
-											<img src="images/stickers.jpg" alt="Articles promotionnels" style="filter: brightness(50%);" />
-										</span>
-										<a href="services/articles.html">
-											<h2>Articles promotionnels</h2>
-											<div class="content" id="descriptions">
-												<p>Les articles promotionnels permettent de donner de la visibilité à votre
-												entreprise à travers objets qui seront utilisé dans la vie de tous les jours.</p>
-												<li id="descriptions">Contactez-nous pour connaître toutes nos offres de produit.</li>
-											</div>
-										</a>
-									</article>
-									<article class="style6">
-										<span class="image">
-											<img src="images/posters.jpg" alt="Impression numérique & Grand format" style="filter: brightness(50%);" />
-										</span>
-										<a href="services/impression.html">
-											<h2>Impression numérique & Grand format</h2>
-											<div class="content" id="descriptions">
-												<p>L’impression numérique et grand format est utilisé pour promouvoir votre entreprise
-												avec l’utilisation de cartes d'affaire, d’autocollants, d’affiches, de dépliants, flyers, bannières. </p>
-											</div>
-										</a>
-									</article>
-									<article class="style1">
-										<span class="image">
-											<img src="images/tampo.jpg" alt="Tampographie" style="filter: brightness(50%);" />
-										</span>
-										<a href="services/tampographie.html">
-											<h2>Tampographie</h2>
-											<div class="content" id="descriptions">
-												<p>La tampographie est surtout utilisée sur des produits ou des emplacements difficiles
-													à imprimer par les autres procédés d’impression. Cette technique permet d’imprimer
-													sur du plastique, du métal et du verre. Ce processus est produit par un tampon en
-													silicone adapté à la surface à imprimer qui absorbe le logo à graver pour ensuite
-												le déposer sur le support. </p>
-											</div>
-										</a>
-									</article>
-									<article class="style3">
-										<span class="image">
-											<img src="images/design.jpg" alt="Design et infographie" style="filter: brightness(50%);" />
-										</span>
-										<a href="services/design.html">
-											<h2>Design & infographie</h2>
-											<div class="content" id="descriptions">
-												<p>La création du design et la modification de certains logos peuvent être très compliqué
-													pour certaines personnes. C’est pour cette raison que nous offrons un service de
-												modifications d’images pour vous aider à gagner du temps. </p>
-											</div>
-										</a>
-									</article>
-								</section>
-							</div>
 						</div>
 
-						<!-- Footer -->
-						<footer id="footer">
-							<div class="inner">
-								<section>
-									<h2>Contact</h2>
-									<form method="post" action="https://formspree.io/f/mdoppvwp">
-										<div class="fields">
-											<div class="field half">
-												<input type="text" name="name" id="name" placeholder="Nom" />
-											</div>
-											<div class="field half">
-												<input type="email" name="email" id="email" placeholder="E-mail" />
-											</div>
-											<div class="field">
-												<textarea name="message" id="message" placeholder="Message"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="envoyer" class="primary" /></li>
-										</ul>
-									</form>
-								</section>
-								<section>
-									<h2>Réseaux Sociaux</h2>
-									<ul class="icons">
-										<li><a href="https://www.facebook.com/pg/AgoraDistribution" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="https://www.instagram.com/agoradistribution/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="tel:5149103599" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-										<li><a href="mailto:info@agoradistribution.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-									</ul>
-								</section>
-								<ul class="copyright">
-									<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-								</ul>
-							</div>
-						</footer>
 
+						<div class="col-4 off-1 col-10-small off-1-small row" style="text-align: right;display:block;">
+
+							<div style="height:100px;" class="mobile-padding-services" id="articles"></div>
+							<span class="image main"><img src="images/articles-petit.jpg" alt="" /></span>
+							<h1>Articles Promotionnels</h1>
+							<p>Les articles promotionnels permettent de donner de la visibilité à votre
+							entreprise à travers objets qui seront utilisé dans la vie de tous les jours.</p>
+							<p>Contactez-nous pour connaître toutes nos offres de produit.</p>
+
+
+							<div style="height:100px" id="impression"></div>
+							<span class="image main"><img src="images/impression-petit.jpg" alt="" /></span>
+							<h1>Impression Numérique & Grand Format</h1>
+							<p>L’impression numérique et grand format est utilisé pour promouvoir votre entreprise avec l’utilisation de cartes d'affaire, d’autocollants, d’affiches, de dépliants, flyers, bannières. </p>
+
+
+
+							<div style="height:100px" id="tampographie"></div>
+							<span class="image main"><img src="images/tampo2-petit.jpg" alt="" /></span>
+							<h1>Tampographie</h1>
+							<p>Les articles promotionnels permettent de donner de la visibilité à votre
+							entreprise à travers objets qui seront utilisé dans la vie de tous les jours.</p>
+
+
+							<div style="height:100px" id="design"></div>
+							<span class="image main"><img src="images/design2-petit.jpg" alt="" /></span>
+							<h1>Design & Infographie</h1>
+							<p>L’impression numérique et grand format est utilisé pour promouvoir votre entreprise avec l’utilisation de cartes d'affaire, d’autocollants, d’affiches, de dépliants, flyers, bannières. </p>
+						</div>
+
+						<div class="col-4 off-1-small col-10-small soumission-services" style="padding-left: 1%">
+							<a  href="soumission.html">
+								<button style="margin-top:50px;">
+									Demande de Soumission
+								</button>	
+							</a>
+						</div>
 					</div>
+				</div>
 
-					<!-- Scripts -->
-					<script src="assets/js/jquery.min.js"></script>
-					<script src="assets/js/browser.min.js"></script>
-					<script src="assets/js/breakpoints.min.js"></script>
-					<script src="assets/js/util.js"></script>
-					<script src="assets/js/main.js"></script>
 
-				</body>
-				</html>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<section>
+							<h2>Contact</h2>
+							<form method="post" action="https://formspree.io/f/mdoppvwp">
+								<div class="fields">
+									<div class="field half">
+										<input type="text" name="name" id="name" placeholder="Nom" />
+									</div>
+									<div class="field half">
+										<input type="email" name="email" id="email" placeholder="E-mail" />
+									</div>
+									<div class="field">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="envoyer" class="primary" /></li>
+								</ul>
+							</form>
+						</section>
+						<section>
+							<h2>Réseaux Sociaux</h2>
+							<ul class="icons">
+								<li><a target="_blank" href="https://www.facebook.com/pg/AgoraDistribution" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a target="_blank" href="https://www.instagram.com/agoradistribution/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="tel:5149103599" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+								<li><a href="mailto:info@agoradistribution.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+						</section>
+						<ul class="copyright">
+							<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+					document.getElementById("serigraphieAnchor").href = "#serigraphie";
+					document.getElementById("broderieAnchor").href = "#broderie";
+					document.getElementById("transfertAnchor").href = "#transfert";
+					document.getElementById("sublimationAnchor").href = "#sublimation";
+					document.getElementById("articlesAnchor").href = "#articles";
+					document.getElementById("impressionAnchor").href = "#impression";
+					document.getElementById("tampographieAnchor").href = "#tampographie";
+					document.getElementById("designAnchor").href = "#design";
+				}
+			</script>
+
+		</body>
+		</html>
