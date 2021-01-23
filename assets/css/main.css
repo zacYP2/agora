@@ -2319,7 +2319,6 @@ footer, header, hgroup, menu, nav, section {
 		border: 0;
 		display: inline-block;
 		position: relative;
-		z-index: -999;
 	}
 
 	.image img {
@@ -3001,8 +3000,8 @@ footer, header, hgroup, menu, nav, section {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #FFFFFF;
-		color:#2752B0;
+		background: #585858;
+		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
@@ -3021,7 +3020,8 @@ footer, header, hgroup, menu, nav, section {
 		height: 100%;
 		padding: 2.75em;
 		opacity: 0;
-		overflow-y: auto;	}
+		overflow-y: auto;
+	}
 
 	#menu > .inner > ul {
 		list-style: none;
@@ -3358,25 +3358,9 @@ footer, header, hgroup, menu, nav, section {
 
 
 	a[href="#menu"] {visibility: hidden; left:100px;}
-	a[href="soumission.html"] {color:#2555C0;}
+	a[href="soumission.html"] {color:#346DED;}
 
 	#index-mobile {display:none;}
-
-
-	.sticky {
-		position: fixed;
-		top: 0;
-		width: 100%;
-		display:block;
-		background-color: white;
-	}
-
-	/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-	.sticky + .content {
-		padding-top: 60px;
-	}
-
-
 
 
 	@media screen and (max-width: 736px) {
@@ -3393,8 +3377,6 @@ footer, header, hgroup, menu, nav, section {
 
 		#index-mobile {display: block;}
 
-		.sticky {display: none;}
-
 	}
 
 
@@ -3403,7 +3385,6 @@ footer, header, hgroup, menu, nav, section {
 		height: 95px;
 		overflow: hidden;
 		background-color: #white;
-		border-bottom: 1px solid #637DB7;
 	}
 
 	.topnav a {
@@ -3450,12 +3431,12 @@ footer, header, hgroup, menu, nav, section {
 
 	.dropdown-content {
 		display: none;
-		position: fixed;
+		position: absolute;
 		margin-top:80px;
 		background-color: #f9f9f9;
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1000000;
+		z-index: 1000;
 		border-radius: 4px;
 	}
 
@@ -3545,3 +3526,5 @@ a {
 	border:none;
 }
 
+#services-description > div > h1 {
+}
