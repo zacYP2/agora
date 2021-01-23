@@ -3387,7 +3387,7 @@ footer, header, hgroup, menu, nav, section {
 
 		#descriptions {display:none;}
 
-		#desktop-only {visibility: hidden;}
+		#desktop-only {display:none;}
 
 		a[href="#menu"] {visibility: visible; left:0px}
 
@@ -3443,6 +3443,7 @@ footer, header, hgroup, menu, nav, section {
 
 	.dropdown .dropbtn { 
 		color: black;
+		display:block;
 	}
 
 
