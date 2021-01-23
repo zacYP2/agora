@@ -2319,6 +2319,7 @@ footer, header, hgroup, menu, nav, section {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		z-index: -999;
 	}
 
 	.image img {
@@ -3000,8 +3001,8 @@ footer, header, hgroup, menu, nav, section {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
-		color: #ffffff;
+		background: #FFFFFF;
+		color:#2752B0;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
@@ -3020,9 +3021,8 @@ footer, header, hgroup, menu, nav, section {
 		height: 100%;
 		padding: 2.75em;
 		opacity: 0;
-		overflow-y: auto;
-	}
-
+		overflow-y: auto;	}
+		
 	#menu > .inner > ul {
 		list-style: none;
 		margin: 0 0 1em 0;
@@ -3038,8 +3038,8 @@ footer, header, hgroup, menu, nav, section {
 		display: block;
 		padding: 1em 0;
 		line-height: 1.5;
-		border: 0;
 		color: inherit;
+		border-bottom: 1px solid #EBF0FD;
 	}
 
 	#menu > .inner > ul > li:first-child {
@@ -3163,13 +3163,13 @@ footer, header, hgroup, menu, nav, section {
 	/* Main */
 
 	#main {
-		padding: 0em 0 6em 0 ;
+		padding: 6em 0 6em 0 ;
 	}
 
 	@media screen and (max-width: 736px) {
 
 		#main {
-			padding: 0em 0 4em 0 ;
+			padding: 4em 0 4em 0 ;
 		}
 
 	}
@@ -3358,9 +3358,25 @@ footer, header, hgroup, menu, nav, section {
 
 
 	a[href="#menu"] {visibility: hidden; left:100px;}
-	a[href="soumission.html"] {color:#346DED;}
+	a[href="soumission.html"] {color:#2555C0;}
 
 	#index-mobile {display:none;}
+
+
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		display:block;
+		background-color: white;
+	}
+
+	/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+	.sticky + .content {
+		padding-top: 60px;
+	}
+
+
 
 
 	@media screen and (max-width: 736px) {
@@ -3371,11 +3387,13 @@ footer, header, hgroup, menu, nav, section {
 
 		#descriptions {display:none;}
 
-		#desktop-only {visibility: hidden;}
+		#desktop-only {display:none;}
 
 		a[href="#menu"] {visibility: visible; left:0px}
 
 		#index-mobile {display: block;}
+
+		.sticky {display: none;}
 
 	}
 
@@ -3385,6 +3403,7 @@ footer, header, hgroup, menu, nav, section {
 		height: 95px;
 		overflow: hidden;
 		background-color: #white;
+		border-bottom: 1px solid #637DB7;
 	}
 
 	.topnav a {
@@ -3424,6 +3443,7 @@ footer, header, hgroup, menu, nav, section {
 
 	.dropdown .dropbtn { 
 		color: black;
+		display:block;
 	}
 
 
@@ -3431,12 +3451,12 @@ footer, header, hgroup, menu, nav, section {
 
 	.dropdown-content {
 		display: none;
-		position: absolute;
+		position: fixed;
 		margin-top:80px;
 		background-color: #f9f9f9;
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1000;
+		z-index: 1000000;
 		border-radius: 4px;
 	}
 
@@ -3526,5 +3546,3 @@ a {
 	border:none;
 }
 
-#services-description > div > h1 {
-}

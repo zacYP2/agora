@@ -1,0 +1,342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"content",
+				"align-content"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"left",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: add",
+				"Package Control: Add Repository"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 396.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mafiazac/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/mafiazac/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/mafiazac/Documents/GitHub/agora/apropos.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services-plus.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/produits.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/portfolio.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/index.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/assets/css/main.css",
+		"/C/Users/mafiazac/Documents/GitHub/agora/contact.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/soumission.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/assets/js/main.js",
+		"/C/Users/mafiazac/Documents/GitHub/agora/elements.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/generic.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services/tampographie.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services/impression.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services/articles.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services/serigraphie.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services/broderie.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/assets/css/portfolio.css",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services/sublimation.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services/design.html",
+		"/C/Users/mafiazac/Documents/GitHub/agora/services/transfert.html",
+		"/C/Users/mafiazac/Documents/firebase-file-upload.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 513.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			":hover",
+			"<h2>Menu</h2>",
+			"border-bo",
+			"border",
+			"menu",
+			"soumission",
+			"main",
+			"<li>&copy; Untitled. All rights reserved</li><li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>",
+			"hr",
+			"menu",
+			"<ul class=\"copyright\">\n\t\t\t\t\t<li>&copy; Untitled. All rights reserved</li><li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>\n\t\t\t\t</ul>",
+			"\n\t\t\t\t\t\t<ul class=\"copyright\">\n\t\t\t\t\t\t\t<li>&copy; Untitled. All rights reserved</li><li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>\n\t\t\t\t\t\t</ul>",
+			"img",
+			"position",
+			"img",
+			"z-ind",
+			"<div class=\"topnav\"",
+			"<div class=\"topnav\" id=\"navbar desktop-only\">",
+			"img",
+			"z-index",
+			"menu",
+			"A.png",
+			"<a href=\"#serigraphie.html\">Sérigraphie</a>\n\t\t\t\t\t\t<a href=\"#broderie.html\">Broderie</a>\n\t\t\t\t\t\t<a href=\"#transfert.html\">Transfert Vinyle</a>\n\t\t\t\t\t\t<a href=\"#sublimation.html\">Sublimation</a>\n\t\t\t\t\t\t<a href=\"#articles.html\">Articles Promotionnels</a>\n\t\t\t\t\t\t<a href=\"#impression.html\">Impression Numérique</a>\n\t\t\t\t\t\t<a href=\"#tampographie.html\">Tampographie</a>\n\t\t\t\t\t\t<a href=\"#design.html\">Design & Infographie</a>",
+			"<a href=\"#serigraphie.html\">Sérigraphie</a>\n\t\t\t\t\t<a href=\"#broderie.html\">Broderie</a>\n\t\t\t\t\t<a href=\"#transfert.html\">Transfert Vinyle</a>\n\t\t\t\t\t<a href=\"#sublimation.html\">Sublimation</a>\n\t\t\t\t\t<a href=\"#articles.html\">Articles Promotionnels</a>\n\t\t\t\t\t<a href=\"#impression.html\">Impression Numérique</a>\n\t\t\t\t\t<a href=\"#tampographie.html\">Tampographie</a>\n\t\t\t\t\t<a href=\"#design.html\">Design & Infographie</a>",
+			"services/",
+			"href=\"https://www.",
+			"mobile-padding-services",
+			"height=\"100px\"",
+			"\" /><spa",
+			"\" />",
+			"00px\"/>",
+			".html",
+			"services/",
+			"backgroun",
+			"<a href=\"port<a href=\"portfolio.html\">Portfolio</a>",
+			"\n\t\t\t\t\t<li><a href=\"../port<a href=\"portfolio.html\">Portfolio</a></li>",
+			"style=\"padding-left:12%;\"",
+			"style=\"padding-left:21%;\"",
+			"col-12-small",
+			"col-6-medium",
+			"col-4-large",
+			"assets/img/backgrounds/",
+			"carousel-item col-12 col-sm-6 col-md-4 col-lg-3",
+			"<a href=\"#\">Sérigraphie</a>\n\t\t\t\t<a href=\"#\">Broderie</a>\n\t\t\t\t<a href=\"#\">Transfert Vinyle</a>\n\t\t\t\t<a href=\"#\">Sublimation</a>\n\t\t\t\t<a href=\"#\">Articles Promotionnels</a>\n\t\t\t\t<a href=\"#\">Impression Numérique</a>\n\t\t\t\t<a href=\"#\">Tampographie</a>\n\t\t\t\t<a href=\"#\">Design & Infographie</a>",
+			"<a href=\"#\">Sérigraphie</a>\n<a href=\"#\">Broderie</a>\n<a href=\"#\">Transfert Vinyle</a>\n<a href=\"#\">Sublimation</a>\n<a href=\"#\">Articles Promotionnels</a>\n<a href=\"#\">Impression Numérique</a>\n<a href=\"#\">Tampographie</a>\n<a href=\"#\">Design & Infographie</a>",
+			"<a href=\"#\">Sérigraphie</a>\n\t\t\t\t\t\t<a href=\"#\">Broderie</a>\n\t\t\t\t\t\t<a href=\"#\">Transfert Vinyle</a>\n\t\t\t\t\t\t<a href=\"#\">Sublimation</a>\n\t\t\t\t\t\t<a href=\"#\">Articles Promotionnels</a>\n\t\t\t\t\t\t<a href=\"#\">Impression Numérique</a>\n\t\t\t\t\t\t<a href=\"#\">Tampographie</a>\n\t\t\t\t\t\t<a href=\"#\">Design & Infographie</a>",
+			"<a href=\"#\">Portfolio</a>",
+			"folio.html\">Portfolio</a>",
+			"<a href=\"#\">Portfolio</a>",
+			"placeholder=\"Email\"",
+			"name=\"email\" id=\"email\"",
+			"mailto:agoradistribution@hotmail.com",
+			"<!DOCTYPE HTML>\n\n<html>\n<head>\n\t<title>Agora Distribution</title>\n\t<meta charset=\"utf-8\" />\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, user-scalable=no\" />\n\t<link rel=\"stylesheet\" href=\"assets/css/main.css\" />\n\t<link rel=\"icon\" href=\"images/A.png\">\n\t<noscript><link rel=\"stylesheet\" href=\"assets/css/noscript.css\" /></noscript>\n</head>\n<header>\n\t<!-- topnav -->\n\n\t<div class=\"topnav\" id=\"desktop-only\">\n\t\t<a href=\"index.html\" style=\"padding:14px; padding-left:40px\"><img src=\"images/agora-bleu.png\" height=62px /></a>\n\n\t\t\n\n\t\t<div class=\"dropdown first\">\n\t\t\t<a href=\"services.html\" class=\"dropbtn\">Services <img src=\"images/arrow.svg\" height=15px style=\"padding-top:4px;\"/></a>\n\t\t\t<div class=\"dropdown-content\">\n\t\t\t\t<a href=\"#\">Sérigraphie</a>\n\t\t\t\t<a href=\"#\">Broderie</a>\n\t\t\t\t<a href=\"#\">Transfert Vinyle</a>\n\t\t\t\t<a href=\"#\">Sublimation</a>\n\t\t\t\t<a href=\"#\">Articles Promotionnels</a>\n\t\t\t\t<a href=\"#\">Impression Numérique</a>\n\t\t\t\t<a href=\"#\">Tampographie</a>\n\t\t\t\t<a href=\"#\">Design & Infographie</a>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<a href=\"produits.html\">Produits</a>\n\n\t\t<a href=\"#\">Portfolio</a>\n\n\t\t<a class=\"active\" href=\"apropos.html\">À propos</a>\n\n\t\t<a href=\"contact.html\">Contact</a>\n\n\t\t<a href=\"soumission.html\">Soumission</a>\n\n\t\t<a href=\"#\" style=\"float: right;margin-right:5%;\">Rechercher<img src=\"images/loupe.svg\" color=\"black\" width=\"18px\" style=\"margin-left:8px;\"/></a>\n\n\t</div>\n\t\n\t<div class=\"bouton-mobil\">\n\t\t<a href=\"index.html\" style=\"padding:14px; padding-left:32px;position: absolute;border: none; left: 0px; top: 0px;\"><img src=\"images/agora-bleu.png\" height=80px /></a>\n\t</div>\n\n</header>\n\n\n\n<body class=\"is-preload\">\n\t<!-- Wrapper -->\n\t<div id=\"wrapper\">\n\n\t\t<!-- Header -->\n\t\t<header id=\"header\">\n\t\t\t<div class=\"inner\">\n\n\n\n\t\t\t\t<!-- Nav -->\n\t\t\t\t<nav>\n\t\t\t\t\t<ul>\n\t\t\t\t\t\t<li><a href=\"#menu\">Menu</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</nav>\n\n\t\t\t</div>\n\t\t</header>\n\n\t\t<!-- Menu -->\n\t\t<nav id=\"menu\" >\n\t\t\t<h2>Menu</h2>\n\t\t\t<ul>\n\n\t\t\t\t<li><a href=\"services.html\">Services</a></li>\n\t\t\t\t<li><a href=\"produits.html\">Produits</a></li>\n\t\t\t\t<li><a href=\"#\">Portfolio</a></li>\n\t\t\t\t<li><a href=\"apropos.html\">À propos</a></li>\n\t\t\t\t<li><a href=\"contact.html\">Contact</a></li>\n\t\t\t\t<li><a href=\"soumission.html\">Soumission</a></li>\n\t\t\t</ul>\n\t\t</nav>\n\n\t\t<!-- Main -->\n\t\t<div id=\"main\">\n\t\t\t<div class=\"inner\">\n\t\t\t\t<div class=\"row gtr-uniform\">\n\t\t\t\t\t<div class=\"col-6 col-10-small off-1-small\">\n\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\t<h1>À propos d'Agora Distribution</h1>\n\t\t\t\t\t\t</header>\n\n\t\t\t\t\t\t<p style=\"font-size:24px; margin: 0px 0px 20px 0px; padding-top: 30px\">Qui sommes nous?</p>\n\n\t\t\t\t\t\t<p>Agora Distribution est une entreprise qui met en avant-plan votre compagnie et vos idées.\n\t\t\t\t\t\t\tNous vous offrons un service de personnification de vêtements et d'accessoires promotionnels\n\t\t\t\t\t\tpour vos entreprises et pour les particuliers!  </p>\n\t\t\t\t\t\t<p style=\"font-size:24px; margin: 0px 0px 20px 0px;\">Services Offerts</p>\n\n\t\t\t\t\t\t<p>Sérigraphie, transfert vinyle, broderie, tampographie, sublimation, tout ces méthodes sont\n\t\t\t\t\t\t\tà votre disposition pour vos créations. Notre contrôle de qualité est un des aspects les plus\n\t\t\t\t\t\timportants dans notre éthique de travail.  </p>\n\t\t\t\t\t\t<p style=\"font-size:24px; margin: 0px 0px 20px 0px;\">Produits Offerts</p>\n\n\t\t\t\t\t\t<p style=\"margin-bottom: 100px;\">Avec notre grande gamme de produits et de couleurs tendances, nous pouvons répondre à tout\n\t\t\t\t\t\t\tvos demandes. Que ce soit des t-shirts, coton ouatés, chemises, tuques, casquettes ou manteaux,\n\t\t\t\t\t\t\tnous sommes en mesure de trouver ce que vous désirez. Vous avez besoin de matériel de promotion?\n\t\t\t\t\t\t\tNos affiches, flyers, dépliants, cartes d'affaires, enveloppes, bannières, autocollants ou tout\n\t\t\t\t\t\t\tautres publications imprimées sont à votre disposition.  Avec une vitesse de production supérieure\n\t\t\t\t\t\tà la moyenne, nous vous offrons un service rapide et efficace. </p>\n\t\t\t\t\t</div>\n\n\n\t\t\t\t\t<div class=\"col-6 col-10-small off-1-small\">\n\t\t\t\t\t\t<img src=\"images/local.jpeg\" width=100% />\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t</div>\n\t\t</div>\n\n\t\t<!-- Footer -->\n\t\t<footer id=\"footer\">\n\t\t\t<div class=\"inner\">\n\t\t\t\t<section>\n\t\t\t\t\t<h2>Contact</h2>\n\t\t\t\t\t<form method=\"post\" action=\"https://formspree.io/f/mdoppvwp\">\n\t\t\t\t\t\t<div class=\"fields\">\n\t\t\t\t\t\t\t<div class=\"field half\">\n\t\t\t\t\t\t\t\t<input type=\"text\" name=\"name\" id=\"name\" placeholder=\"Nom\" />\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"field half\">\n\t\t\t\t\t\t\t\t<input type=\"email\" name=\"email\" id=\"email\" placeholder=\"Email\" />\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"field\">\n\t\t\t\t\t\t\t\t<textarea name=\"message\" id=\"message\" placeholder=\"Message\"></textarea>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<ul class=\"actions\">\n\t\t\t\t\t\t\t<li><input type=\"submit\" value=\"envoyer\" class=\"primary\" /></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</form>\n\t\t\t\t</section>\n\t\t\t\t<section>\n\t\t\t\t\t<h2>Réseaux Sociaux</h2>\n\t\t\t\t\t<ul class=\"icons\">\n\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/pg/AgoraDistribution\" class=\"icon brands style2 fa-facebook-f\"><span class=\"label\">Facebook</span></a></li>\n\t\t\t\t\t\t<li><a href=\"https://www.instagram.com/agoradistribution/\" class=\"icon brands style2 fa-instagram\"><span class=\"label\">Instagram</span></a></li>\n\t\t\t\t\t\t<li><a href=\"tel:5149103599\" class=\"icon solid style2 fa-phone\"><span class=\"label\">Phone</span></a></li>\n\t\t\t\t\t\t<li><a href=\"mailto:agoradistribution@hotmail.com\" class=\"icon solid style2 fa-envelope\"><span class=\"label\">Email</span></a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</section>\n\t\t\t\t<ul class=\"copyright\">\n\t\t\t\t\t<li>&copy; Untitled. All rights reserved</li><li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>\n\t\t\t\t</ul>\n\t\t\t</div>\n\t\t</footer>\n\n\t</div>\n\n\t<!-- Scripts -->\n\t<script src=\"assets/js/jquery.min.js\"></script>\n\t<script src=\"assets/js/browser.min.js\"></script>\n\t<script src=\"assets/js/breakpoints.min.js\"></script>\n\t<script src=\"assets/js/util.js\"></script>\n\t<script src=\"assets/js/main.js\"></script>\n\n</body>\n</html>\n",
+			"mailto:info@agoradistribution.com",
+			"mailto:agoradistribution@hotmail.com",
+			"Send",
+			"send",
+			"find",
+			"src=\"",
+			"href=\"",
+			"Contact</a></li>",
+			"Contact</a>",
+			"</a>",
+			"<a href=\"#\">",
+			"body",
+			".\t\t<div class=\"bouton-mobil\">\n\t\t\t<a href=\"index.html\" style=\"padding:14px; padding-left:32px;position: absolute;border: none; left: 0px; top: 0px;\"><img src=\"images/agora-bleu-petit.png\" height=105px /></a>\n\t\t</div>",
+			".png",
+			"desktop-only",
+			"<!-- Footer -->\n\t\t\t\t\t<footer id=\"footer\">\n\t\t\t\t\t\t<div class=\"inner\">\n\t\t\t\t\t\t\t<section>\n\t\t\t\t\t\t\t\t<h2>Get in touch</h2>\n\t\t\t\t\t\t\t\t<form method=\"post\" action=\"#\">\n\t\t\t\t\t\t\t\t\t<div class=\"fields\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"field half\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" name=\"name\" id=\"name\" placeholder=\"Name\" />\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"field half\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"email\" name=\"email\" id=\"email\" placeholder=\"Email\" />\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"field\">\n\t\t\t\t\t\t\t\t\t\t\t<textarea name=\"message\" id=\"message\" placeholder=\"Message\"></textarea>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<ul class=\"actions\">\n\t\t\t\t\t\t\t\t\t\t<li><input type=\"submit\" value=\"Send\" class=\"primary\" /></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t</section>\n\t\t\t\t\t\t\t<section>\n\t\t\t\t\t\t\t\t<h2>Follow</h2>\n\t\t\t\t\t\t\t\t<ul class=\"icons\">\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon brands style2 fa-twitter\"><span class=\"label\">Twitter</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon brands style2 fa-facebook-f\"><span class=\"label\">Facebook</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon brands style2 fa-instagram\"><span class=\"label\">Instagram</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon brands style2 fa-dribbble\"><span class=\"label\">Dribbble</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon brands style2 fa-github\"><span class=\"label\">GitHub</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon brands style2 fa-500px\"><span class=\"label\">500px</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon solid style2 fa-phone\"><span class=\"label\">Phone</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"#\" class=\"icon solid style2 fa-envelope\"><span class=\"label\">Email</span></a></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</section>\n\t\t\t\t\t\t\t<ul class=\"copyright\">\n\t\t\t\t\t\t\t\t<li>&copy; Untitled. All rights reserved</li><li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</footer>",
+			"<li><a href=\"accueil.html\">Accueil</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"services.html\">Services</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"produits.html\">Produits</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#\">Portfolio</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"contact.html\">Contact</a></li>\n",
+			"style2",
+			"input",
+			"menu",
+			"bouton-mobil",
+			"mobile",
+			"mobile-on",
+			"h1",
+			"header",
+			"font-fam",
+			"awesome",
+			"font-fami",
+			"font-family",
+			"helvetica",
+			"font-fam",
+			"menu"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<h2>Menu</h2>\n<hr style=\"margin-top:-10px\">",
+			"",
+			"<div class=\"topnav sticky\"",
+			"<div class=\"topnav sticky\" id=\"navbar desktop-only\">",
+			"AD.png",
+			"<a href=\"#serigraphie.html\">Sérigraphie</a>\n\t\t\t \t\t<a href=\"#broderie\">Broderie</a>\n\t\t\t\t\t<a href=\"#transfert\">Transfert Vinyle</a>\n\t\t\t\t\t<a href=\"#sublimation\">Sublimation</a>\n\t\t\t\t\t<a href=\"#articles\">Articles Promotionnels</a>\n\t\t\t\t\t<a href=\"#impression\">Impression Numérique</a>\n\t\t\t\t\t<a href=\"#tampographie\">Tampographie</a>\n\t\t\t\t\t<a href=\"#design\">Design & Infographie</a>",
+			"<a href=\"#serigraphie.html\">Sérigraphie</a>\n\t\t\t\t\t<a href=\"#broderie\">Broderie</a>\n\t\t\t\t\t<a href=\"#transfert\">Transfert Vinyle</a>\n\t\t\t\t\t<a href=\"#sublimation\">Sublimation</a>\n\t\t\t\t\t<a href=\"#articles\">Articles Promotionnels</a>\n\t\t\t\t\t<a href=\"#impression\">Impression Numérique</a>\n\t\t\t\t\t<a href=\"#tampographie\">Tampographie</a>\n\t\t\t\t\t<a href=\"#design\">Design & Infographie</a>",
+			"#",
+			"target=\"_blank\" href=\"https://www.",
+			"style=\"height:100px;display:block\"",
+			"\"></div><spa",
+			"",
+			"#",
+			"<a href=\"portfolio.html\">Portfolio</a>\n\n\t\t\t\t<a href=\"../portfolio.html\">Portfolio</a>",
+			"\n\n\t\t\t\t<a href=\"../portfolio.html\">Portfolio</a>",
+			"class=\"21p\"",
+			"col-12-xsmall",
+			"col-6-small",
+			"col-4-medium",
+			"images/portfolio/",
+			"carousel-item col-3 col-4-large col-6-medium col-12-small",
+			"<a href=\"services/serigraphie.html\">Sérigraphie</a>\n\t\t\t\t\t<a href=\"services/broderie.html\">Broderie</a>\n\t\t\t\t\t<a href=\"services/transfert.html\">Transfert Vinyle</a>\n\t\t\t\t\t<a href=\"services/sublimation.html\">Sublimation</a>\n\t\t\t\t\t<a href=\"services/articles.html\">Articles Promotionnels</a>\n\t\t\t\t\t<a href=\"services/impression.html\">Impression Numérique</a>\n\t\t\t\t\t<a href=\"services/tampographie.html\">Tampographie</a>\n\t\t\t\t\t<a href=\"services/design.html\">Design & Infographie</a>",
+			"<a href=\"portfolio.html\">Portfolio</a>",
+			"placeholder=\"E-mail\"",
+			"name=\"e-mail\" id=\"e-mail\"",
+			"mailto:info@agoradistribution.com",
+			"envoyer",
+			"src=\"../",
+			"href=\"../",
+			"href=\"/",
+			"href=\"../",
+			"Contact</a></li>\n\t\t\t\t<li><a href=\"soumission.html\">Soumission</a></li>",
+			"Contact</a>\n\n\t\t\t\t<a href=\"soumission.html\">Soumission</a>",
+			"</option>",
+			"<option value=\"1\">",
+			"\t<div class=\"bouton-mobil\">\n\t\t\t<a href=\"index.html\" style=\"padding:14px; padding-left:32px;position: absolute;border: none; left: 0px; top: 0px;\"><img src=\"images/agora-bleu.png\" height=80px /></a>\n\t\t</div>",
+			".jpg",
+			"<!-- Footer -->\n\t\t\t\t\t<footer id=\"footer\">\n\t\t\t\t\t\t<div class=\"inner\">\n\t\t\t\t\t\t\t<section>\n\t\t\t\t\t\t\t\t<h2>Contact</h2>\n\t\t\t\t\t\t\t\t<form method=\"post\" action=\"https://formspree.io/f/mdoppvwp\">\n\t\t\t\t\t\t\t\t\t<div class=\"fields\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"field half\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" name=\"name\" id=\"name\" placeholder=\"Nom\" />\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"field half\">\n\t\t\t\t\t\t\t\t\t\t\t<input type=\"email\" name=\"email\" id=\"email\" placeholder=\"Email\" />\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"field\">\n\t\t\t\t\t\t\t\t\t\t\t<textarea name=\"message\" id=\"message\" placeholder=\"Message\"></textarea>\n\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<ul class=\"actions\">\n\t\t\t\t\t\t\t\t\t\t<li><input type=\"submit\" value=\"Send\" class=\"primary\" /></li>\n\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t</section>\n\t\t\t\t\t\t\t<section>\n\t\t\t\t\t\t\t\t<h2>Réseaux Sociaux</h2>\n\t\t\t\t\t\t\t\t<ul class=\"icons\">\n\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.facebook.com/pg/AgoraDistribution\" class=\"icon brands style2 fa-facebook-f\"><span class=\"label\">Facebook</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"https://www.instagram.com/agoradistribution/\" class=\"icon brands style2 fa-instagram\"><span class=\"label\">Instagram</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"tel:5149103599\" class=\"icon solid style2 fa-phone\"><span class=\"label\">Phone</span></a></li>\n\t\t\t\t\t\t\t\t\t<li><a href=\"mailto:agoradistribution@hotmail.com\" class=\"icon solid style2 fa-envelope\"><span class=\"label\">Email</span></a></li>\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t</section>\n\t\t\t\t\t\t\t<ul class=\"copyright\">\n\t\t\t\t\t\t\t\t<li>&copy; Untitled. All rights reserved</li><li>Design: <a href=\"http://html5up.net\">HTML5 UP</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</footer>",
+			"\n\n\n\n\n\t\t\t\t\t\t\t\t<li><a href=\"services.html\">Services</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"produits.html\">Produits</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#\">Portfolio</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"apropos.html\">À propos</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"contact.html\">Contact</a></li>",
+			"<li><a href=\"accueil.html\">Accueil</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"services.html\">Services</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"produits.html\">Produits</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"#\">Portfolio</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"contact.html\">Contact</a></li>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
