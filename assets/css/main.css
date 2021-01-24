@@ -3545,6 +3545,9 @@ a {
 	object-position: 60% 50%;
 }
 
+.boite-soumission {border: none;}
+
+.bouton-fichiers {margin-left:0px;}
 
 @media (min-width:768px) {
 	header {margin-bottom: -60px;}
@@ -3560,4 +3563,6 @@ a {
 		object-fit: cover;
 		object-position: 60% 50%;
 	}
+	.boite-soumission {border: 2px solid black;}
+	.bouton-fichiers {margin-left:24px;}
 }
