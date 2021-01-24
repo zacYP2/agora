@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title>Agora - Soumission</title>
+	<title>Agora - Demande de Soumission</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -44,141 +44,135 @@
 
 				<a class="active" href="soumission.html">Demande de Soumission</a>
 
-
-<!-- 		  <div class="barre-de-recherche"><input width="100px" type="text" name="demo-name" id="demo-name" value="" placeholder="Rechercher" />
-</div> -->
-
-<a href="#" style="float: right;margin-right:5%;">Rechercher<img src="images/loupe.svg" color="black" width="18px" style="margin-left:8px;"/></a>
-
-
-
-
-</div>
-<div class="bouton-mobil">
-	<a href="index.html" style="padding:14px; padding-left:32px;position: absolute;border: none; left: 0px; top: 0px;"><img src="images/agora-bleu-comp.jpg" height=80px /></a>
-</div>
-
-
-</header>
-
-
-<!-- Wrapper -->
-<div id="wrapper">
-
-	<!-- Header -->
-	<header id="header">
-		<div class="inner">
-
-
-
-			<!-- Nav -->
-			<nav>
-				<ul>
-					<li><a href="#menu">Menu</a></li>
-				</ul>
-			</nav>
+				<a href="rechercher.html" style="float: right;margin-right:1%;">Rechercher<img src="images/loupe.svg" color="black" width="18px" style="margin-left:8px;"/></a>
 
 		</div>
+		<div class="bouton-mobil">
+			<a href="index.html" style="padding:14px; padding-left:32px;position: absolute;border: none; left: 0px; top: 0px;"><img src="images/agora-bleu-comp.jpg" height=80px /></a>
+		</div>
+
+
 	</header>
 
-	<!-- Menu -->
-	<nav id="menu" >
-		<h2>Menu</h2>
-		<hr style="margin-top:-10px">
-		<ul>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+
+
+				<!-- Nav -->
+				<nav>
+					<ul>
+						<li><a href="#menu">Menu</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu" >
+			<h2>Menu</h2>
+			<hr style="margin-top:-10px">
+			<ul>
 
 
 
 
 
 
-			<li><a href="services.html">Services</a></li>
-			<li><a href="produits.html">Produits</a></li>
-			<li><a href="portfolio.html">Portfolio</a></li>
-			<li><a href="apropos.html">À propos</a></li>
-			<li><a href="contact.html">Nous Joindre</a></li>
-			<li><a href="soumission.html">Demande de Soumission</a></li>							</ul>
-		</nav>
-	</div>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="produits.html">Produits</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="apropos.html">À propos</a></li>
+				<li><a href="contact.html">Nous Joindre</a></li>
+				<li><a href="soumission.html">Demande de Soumission</a></li>
+				<li><a href="rechercher.html">Rechercher</a></li>							</ul>
+			</nav>
+		</div>
 
 
-	<!-- Main -->
-	<div id="main">
-		<div class="inner">
-			<header>
-				<div class="row gtr-uniform">
-					<div class="col-8 off-2 col-10-small off-1-small boite-soumission" >
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<header>
+					<div class="row gtr-uniform">
+						<div class="col-8 off-2 col-10-small off-1-small boite-soumission" >
 
-						<h1>Demande de Soumission</h1>
+							<h1>Demande de Soumission</h1>
 
-						<section >
-							<form method="post" action="https://formspree.io/f/mdoppvwp">
-								<div class="fields">
-									<div class="field">
-										<div class="demi-field">
-											<input type="text" name="Nom" id="name" placeholder="Nom" />
+							<section >
+								<form method="post" action="https://formspree.io/f/mdoppvwp">
+									<div class="fields">
+										<div class="field">
+											<div class="demi-field">
+												<input type="text" name="Nom" id="name" placeholder="Nom" />
+											</div>
+										</div>
+
+										<div class="field">
+											<div class="demi-field">
+												<input type="email" name="E-mail" id="email" placeholder="E-mail" required/>
+											</div>
+										</div>
+
+										<div class="field quarter">
+											<select name="Services Requis" id="service-category">
+												<option value="">Services</option>
+												<option value="Sérigraphie">Sérigraphie</option>
+												<option value="Broderie">Broderie</option>
+												<option value="Transfert Vinyle">Transfert Vinyle</option>
+												<option value="Sublimation">Sublimation</option>
+												<option value="Articles Promotionnels">Articles Promotionnels</option>
+												<option value="Impression Numérique">Impression Numérique</option>
+												<option value="Tampographie">Tampographie</option>
+												<option value="Design & Infographie">Design & Infographie</option>
+												<option value="Autre">Autre</option>
+											</select>
+										</div>
+										<div class="field">
+											<input type="checkbox" id="vehicle1" name="Livraison" onclick="getCheckbox()">
+											<label for="vehicle1">Livraison et manutention</label><br>
+										</div>
+
+										<div id="showAddress" style="display:none">
+											<div style="margin-left:32px; width:80%;margin-bottom: 24px;margin-top: 24PX">
+												<input type="adresse" name="Adresse" id="adresse" placeholder="Adresse"/>
+											</div>
+											<div style="margin-left:32px; width:30%;margin-bottom: 24px;">
+												<input type="adresse" name="Code Postal" id="code-postal" placeholder="Code Postal"/>
+											</div>
+											<div style="margin-left:32px; padding-right:40%; width:120%;">
+												<p style="font-size: 0.8em;text-align: justify;margin-top:24px">Un dépôt initial représentant 50% du montant total est requis avant le début de la production de vos vêtements. Nous offrons la livraison gratuite à tout nos clients pour les commandes de 400$ (avant taxes) et plus, si le montant est inférieur à 400$ (avant taxes) un frais de 7,50$ de livraison sera appliqué pour les livraisons sur l'île de Montréal, un frais de 13,50$ sera appliquer pour les livraisons à l'extérieur de Montréal.</p>
+											</div>
+										</div>
+
+										<div class="field">
+											<div style="width:80%">
+												<textarea name="message" id="Message" placeholder="Message" required></textarea>
+											</div>
 										</div>
 									</div>
 
-									<div class="field">
-										<div class="demi-field">
-											<input type="email" name="E-mail" id="email" placeholder="E-mail" required/>
-										</div>
-									</div>
+									<div id="filesubmit">
+										<progress value="0" max="100" id="uploader">0%</progress>
+										<input type="file" value="upload" accept="image/*" id="fileButton" class="bouton-fichiers"></div>
 
-									<div class="field quarter">
-										<select name="Services Requis" id="service-category">
-											<option value="">Services</option>
-											<option value="Sérigraphie">Sérigraphie</option>
-											<option value="Broderie">Broderie</option>
-											<option value="Transfert Vinyle">Transfert Vinyle</option>
-											<option value="Sublimation">Sublimation</option>
-											<option value="Articles Promotionnels">Articles Promotionnels</option>
-											<option value="Impression Numérique">Impression Numérique</option>
-											<option value="Tampographie">Tampographie</option>
-											<option value="Design & Infographie">Design & Infographie</option>
-											<option value="Autre">Autre</option>
-										</select>
-									</div>
-									<div class="field">
-										<input type="checkbox" id="vehicle1" name="Livraison" onclick="getCheckbox()">
-										<label for="vehicle1">Livraison et manutention</label><br>
-									</div>
+										<ul class="actions">
+											<li><input style="margin-top:50px;" type="submit" value="envoyer" class="primary" /></li>
+										</ul>
+									</form>
+								</section>
 
-									<div id="showAddress" style="display:none">
-										<div style="margin-left:32px; width:80%;margin-bottom: 24px;margin-top: 24PX">
-											<input type="adresse" name="Adresse" id="adresse" placeholder="Adresse"/>
-										</div>
-										<div style="margin-left:32px; width:30%;margin-bottom: 24px;">
-											<input type="adresse" name="Code Postal" id="code-postal" placeholder="Code Postal"/>
-										</div>
-										<div style="margin-left:32px; padding-right:40%; width:120%;">
-											<p style="font-size: 0.8em;text-align: justify;margin-top:24px">Un dépôt initial représentant 50% du montant total est requis avant le début de la production de vos vêtements. Nous offrons la livraison gratuite à tout nos clients pour les commandes de 400$ (avant taxes) et plus, si le montant est inférieur à 400$ (avant taxes) un frais de 7,50$ de livraison sera appliqué pour les livraisons sur l'île de Montréal, un frais de 13,50$ sera appliquer pour les livraisons à l'extérieur de Montréal.</p>
-										</div>
-									</div>
-
-									<div class="field">
-										<div style="width:80%">
-											<textarea name="message" id="Message" placeholder="Message" required></textarea>
-										</div>
-									</div>
-								</div>
-
-								<div id="filesubmit">
-									<progress value="0" max="100" id="uploader">0%</progress>
-									<input type="file" value="upload" accept="image/*" id="fileButton" class="bouton-fichiers"></div>
-
-									<ul class="actions">
-										<li><input style="margin-top:50px;" type="submit" value="envoyer" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-
+							</div>
 						</div>
-					</div>
 
-					<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
-					<script>
+						<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+						<script>
 
 		//BE SURE TO PROTECT EVERYTHING IN THE CONFIG
 		//DON'T COMMIT IT!!!

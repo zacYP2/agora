@@ -3549,6 +3549,10 @@ a {
 
 .bouton-fichiers {margin-left:0px;}
 
+#myInput {width: 160px}
+
+#myUL {list-style: none;-webkit-column-count: 1;-moz-column-count: 1;column-count: 1;}
+
 @media (min-width:768px) {
 	header {margin-bottom: -60px;}
 
@@ -3565,4 +3569,7 @@ a {
 	}
 	.boite-soumission {border: 2px solid black;}
 	.bouton-fichiers {margin-left:24px;}
+	#myInput {width: 300px}
+	#myUL {list-style: none;-webkit-column-count: 2;-moz-column-count: 2;column-count: 2;}
 }
+
